@@ -7,17 +7,17 @@ case "eekhoorn":
    document.getElementById("mar").style.display = "block";
    display = "eekhoorn";
    break;
-   case "Marijnissen":
+   case "marijnissen":
    document.getElementById("wilhout").style.display = "none";
    document.getElementById("mar").style.display = "block";
    display = "eekhoorn";
    break;
-   case "Eekhoorn Marijnissen":
+   case "eekhoorn marijnissen":
     document.getElementById("wilhout").style.display = "none";
     document.getElementById("mar").style.display = "block";
     display = "eekhoorn";
     break;
-    case "SP":
+    case "sp":
         document.getElementById("wilhout").style.display = "none";
         document.getElementById("mar").style.display = "block";
         display = "eekhoorn";
