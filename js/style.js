@@ -28,5 +28,23 @@ case "wilhout":
     display = "wilhout";
     break;
     
+case "geert wilhout":
+    document.getElementById("mar").style.display = "none";
+    document.getElementById("wilhout").style.display = "block";
+    display = "wilhout";
+    break;
+    case "geert":
+    document.getElementById("mar").style.display = "none";
+    document.getElementById("wilhout").style.display = "block";
+    display = "wilhout";
+    break;
+    case "pvv":
+    document.getElementById("mar").style.display = "none";
+    document.getElementById("wilhout").style.display = "block";
+    display = "wilhout";
+    break;
+    
+}
+}
 }
 }
