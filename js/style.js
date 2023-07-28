@@ -7,10 +7,14 @@ var search = document.getElementById("search").value.toLowerCase()
    document.getElementById("mar").style.display = "block";
    display = "Eekhoorn Marijnissen";
  }
- if ((search == 'wilhout') || (search == 'geert') || ((search == 'geert wilhout') || (search == 'pvv') ) ){
+else if ((search == 'wilhout') || (search == 'geert') || ((search == 'geert wilhout') || (search == 'pvv') ) ){
 
     document.getElementById("wilhout").style.display = "block";
     document.getElementById("mar").style.display = "none";
     display = "Geert Wilhout";
+  }
+else{
+    $('.partij').show();
+
   }
 }
