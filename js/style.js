@@ -18,21 +18,17 @@ if ((search == 'wilhout') || (search == 'geert') || (search == 'geert wilhout') 
     display = "Geert Wilhout";
 
   }
+  if ((search == 'timmerkonijn') || (search == 'konijn') || (search == 'Frans Timmerkonijn') || (search == 'PvdA')) {
+
+    document.getElementById("wilhout").style.display = "none";
+    document.getElementById("mar").style.display = "none";
+    document.getElementById("timmerkonijn").style.display = "block";
+
+    $("#search").val("frans timmerkonijn");
+    display = "Frans Timmerkonijn";
+
+  }
 if (params[1] == '') {
     $('.partij').show();
   }
 }
-window.addEventListener("load", function() {
-    var url = window.location.href;
-var params = url.split('?');
-  if (params[1] == 'search=eekhoorn+marijnissen') {
-    $("#search").val("eekhoorn marijnissen");
-    document.getElementById("wilhout").style.display = "none";
-    document.getElementById("mar").style.display = "block";
-  }
-  else if (params[1] == 'search=geert+wilhout') {
-    $("#search").val("eekhoorn marijnissen");
-    document.getElementById("wilhout").style.display = "block";
-    document.getElementById("mar").style.display = "none";
-  }}, false); 
-

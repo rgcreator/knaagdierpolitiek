@@ -6,8 +6,14 @@ window.addEventListener("load", function() {
       document.getElementById("wilhout").style.display = "none";
       document.getElementById("mar").style.display = "block";
     }
-    else if (params[1] == 'search=geert+wilhout') {
+    if (params[1] == 'search=geert+wilhout') {
       $("#search").val("geert wilhout");
       document.getElementById("wilhout").style.display = "block";
       document.getElementById("mar").style.display = "none";
-    }}, false); 
+    }
+    if (params[1] == 'search=frans timmerkonijn') {
+      $("#search").val("frans timmerkonijn");
+      document.getElementById("wilhout").style.display = "none";
+      document.getElementById("timmerkonijn").style.display = "block";
+      document.getElementById("mar").style.display = "none";
+    }}, false);
