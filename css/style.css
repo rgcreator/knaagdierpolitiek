@@ -36,11 +36,15 @@ article{
 p{
     color: rgb(110, 164, 110);
     font-weight: bold;
-    font-size: 45px;
+    font-size: 20px;
 }
 input{
     height: 100px;
     width: 100%;
+}
+image{
+height: 150px !important;
+width: 100%;
 }
 .btn-primary{
     width: 100%;
